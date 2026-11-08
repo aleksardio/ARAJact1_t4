@@ -1,10 +1,10 @@
 # Actividad 1: Programación Web
 
-Aplicación Maven con Spring Boot 4.1.2, Java 23, Spring Web MVC y Thymeleaf. Conserva la vista existente de información del servidor y añade una API con datos simulados de materias; no utiliza base de datos.
+Aplicación Maven con Spring Boot 4.1.2, compilada para Java 17 utilizando Maven. El entorno local utiliza JDK 23 y el VPS ejecuta OpenJDK 17, Spring Web MVC y Thymeleaf. Conserva la vista existente de información del servidor y añade una API con datos simulados de materias; no utiliza base de datos.
 
 ## Ejecución local
 
-Se necesita JDK 23 y conexión para descargar las dependencias de Maven. Desde la raíz del proyecto:
+Se necesita JDK 17 y conexión para descargar las dependencias de Maven. Desde la raíz del proyecto:
 
 ```powershell
 .\mvnw.cmd spring-boot:run
